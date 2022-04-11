@@ -1,0 +1,141 @@
+body{
+    font-family: yekan;
+}
+
+.container-fluid{
+    max-width: 1220px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#head-tools{
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#head-tools ul{
+    margin-bottom: 10px;
+}
+
+#head-tools ul a{
+    color: #777;
+}
+
+#head-tools ul a:hover{
+    color: red;
+}
+
+#head-tools ul i{
+    margin-left: 8px;
+}
+
+#head-tools li .badge{
+    position: relative;
+    top: -10px;
+    right: -18px;
+    font-size: 14px;
+}
+
+#basket a{
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+
+#basket .basket-icon{
+    background-color: #6c6;
+    padding: 5px 15px;
+}
+
+#basket .basket-text{
+    padding: 5px 15px;
+    background-color: #4b5;
+}
+
+.my-shadow{
+    box-shadow: 0 1px 2px 0 rgba(0 , 0 , 0 , 0.1);
+}
+
+#logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#top-menu{
+    font-size: 13px;
+    position: relative;
+}
+
+#top-menu nav{
+    padding: 8px;
+}
+
+#top-menu .nav-link{
+    color: #555;
+    padding: 6px 15px;
+}
+
+#top-menu .nav-link:hover{
+    color: black;
+}
+
+main{
+    background-color: #eeeff1;
+    padding: 15px 0;
+}
+
+.section-box{
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 0 rgba(0 , 0 , 0 , 0.15);
+}
+
+.section-header {
+    background-color: #f7f9fa;
+}
+
+.section-header h3{
+    padding: 10px 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #494;
+}
+.section-box .box-content{
+    padding: 10px;
+}
+#offer h4{
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    #head-tools {
+        font-size: 12px;
+        padding: 6px 15px 12px 15px;
+    }
+    #head-tools li {
+        margin-left: 40px;
+    }
+    #head-tools #basket {
+        font-size: 14px;
+    }
+    #head-tools #basket .badge {
+        font-size: 14px;
+    }
+    #search {
+        width: 300px;
+    }
+    #top-menu nav {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #search {
+        width: 440px;
+    }
+}
