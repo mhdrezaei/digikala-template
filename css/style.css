@@ -112,6 +112,23 @@ main{
 #offer h4{
     font-size: 14px;
 }
+.media-body h6{
+    font-size: 12px;
+}
+.media-body span{
+    font-size: 11px;
+}
+.media-body a{
+    color: #333; 
+}
+.media-body a:hover{
+    color: red;
+}
+.media img:hover{
+    box-shadow: 0 0 4px 2px rgba(255 , 0 , 0 , 0.3);
+}
+
+
 @media (min-width: 768px) {
     #head-tools {
         font-size: 12px;
