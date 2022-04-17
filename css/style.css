@@ -127,8 +127,123 @@ main{
 .media img:hover{
     box-shadow: 0 0 4px 2px rgba(255 , 0 , 0 , 0.3);
 }
+#top-slider{
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+#top-slider footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(60 , 70 , 90 , 0.8);
+}
+.carousel-indicators {
+    position: static;
+}
+#top-slider footer ol{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 50px;
+}
+#top-slider footer li{
+    width: 20%;
+    font-size: 12px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+    text-indent: 0;
+    background-color: transparent;
+    margin: 0;
+}
+#top-slider footer li.active{
+    background-color: white;
+    color: #444;
+}
+#top-slider footer li.active::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 50%;
+    margin-right: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+}
+#banners{
+margin: 0 -4px;
+}
+.owl-carousel{
+    padding: 10px 0;
+    border: 1px solid #eee;
+}
+.owl-carousel .card-img-top{
+    padding: 10px;
+}
+.owl-carousel h6{
+    font-size: 12px;
+}
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 50%;
+    font-size: 50px !important;
+    outline: none;
+    color: #777 !important;
+}
+.owl-carousel .owl-nav .owl-next{
+    left: -6px;
+}
+.owl-carousel .owl-nav button:hover{
+    color: black!important;
+}
+#top-footer{
+    font-size: 13px;
+}
+#bottom-footer{
+    background-color: #111;
+    padding-top: 30px;
+}
+#bottom-footer h5{
+    color: #eee;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#bottom-footer ul a{
+    color: #bbb;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+#bottom-footer ul a:hover{
+    color: white;
+}
+#bottom-footer .links{
+    margin-top: 45px;  
+}
 
+#bottom-footer .links a{
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+    border-radius: 50%;
+    line-height: 2.25em;
+    transition-duration: 0.3s;
+}
+#bottom-footer .links a:hover{
+    background-color: #6d6;
+}
 
+#bottom-footer input{
+    max-width: 400px;
+}
 @media (min-width: 768px) {
     #head-tools {
         font-size: 12px;
